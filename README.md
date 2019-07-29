@@ -45,8 +45,9 @@ Command to run zipkin with RabbitMQ
 RABBIT_URI=amqp://localhost java -jar zipkin.jar
 ```
 Command to run RabbitMQ
-
+```
 developer-mbp:microservice uniquedeep$ /usr/local/sbin/rabbitmq-server
+```
 
 ## VM Argument
 
