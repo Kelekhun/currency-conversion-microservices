@@ -1,4 +1,4 @@
-# currency-conversion-microservices
+# Currency Conversion/Curreny Exchange Microservices
 Mini Project that serves as Currency Conversion/Currency Exchange Microservices
 
 
@@ -40,10 +40,12 @@ Downloading Zipkin Jar
 - hcurl -sSL https://zipkin.io/quickstart.sh | bash -s
 - java -jar zipkin.jar
 
-Command to run
+Command to run zipkin with RabbitMQ
 ```
 RABBIT_URI=amqp://localhost java -jar zipkin.jar
 ```
+Command to run RabbitMQ
+developer-mbp:microservice uniquedeep$ /usr/local/sbin/rabbitmq-server
 
 ## VM Argument
 
